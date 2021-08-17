@@ -1,0 +1,362 @@
+{
+  "MUL2177.json": [
+    {
+      "usr": "I am looking for a place in Cambridge. It doesn't need to include internet and should be a hotel.",
+      "sys": "I was not able to find a hotel type with no internet, but there are hotels with internet."
+    },
+    {
+      "usr": "Okay, that would be fine, as long as it has free parking.",
+      "sys": "Okay, do you have any preference on price range?"
+    },
+    {
+      "usr": "No. How many are available?",
+      "sys": "There are 8 different hotels around the city with free parking. Do you have a preference for city area or star rating? "
+    },
+    {
+      "usr": "It doesn't matter to me which part of the city it's in or it's rating. In your opinion, which one would be best for a short  3 day stay?",
+      "sys": "It's hard to say. How about the ashley hotel in the north part of town?"
+    },
+    {
+      "usr": "Is there room for 4 people on Monday?",
+      "sys": "Unfortunately I cannot book that day and time. Would you like to change the day or try a different hotel?"
+    },
+    {
+      "usr": "Can i try a different hotel?",
+      "sys": "How about the Express by Holiday Inn and Cambridge, a 2 star, or Huntingdon Marriott Hotel, a 4 star? "
+    },
+    {
+      "usr": "Do either of those include free parking?",
+      "sys": "Yes, they both have free parking, and internet as well. The Marriott is in the west, and Holiday Inn in the east. Does area of the city matter to you?"
+    },
+    {
+      "usr": "No, that does not matter, as long as I can book a 3 night stay for 4 people on Monday.",
+      "sys": "I was not able to book at either location, can I try something else?"
+    },
+    {
+      "usr": "What else is available?",
+      "sys": "ashley hotel is available, can i provide you more information on it? "
+    },
+    {
+      "usr": "We can try and book that one as long as free parking.  4 people for 3 nights.",
+      "sys": "The only hotel available is university arms hotel. You are booked and the reference number is YJJTTQ9X. It comes with parking and internet and is in the centre."
+    },
+    {
+      "usr": "Thank you. I also need a train from Cambridge on Thursday.",
+      "sys": "Sure. Where are you headed to and what time would you like to leave Cambridge?"
+    },
+    {
+      "usr": "I must arrive by 12:45.",
+      "sys": "Okay!  Where are you going?"
+    },
+    {
+      "usr": "I'm going to birmingham new street.",
+      "sys": "TR2636 arrives at 11:44. Would you like to reserve seats?"
+    },
+    {
+      "usr": "That sounds good.  Can you give me the price as well? Thanks.",
+      "sys": "Sure.  The price is 75.10 pounds per ticket."
+    },
+    {
+      "usr": "Great!  That is all I'm going to need today.  Thanks for your help!  ",
+      "sys": "Thank you for contacting Cambridge TownInfo centre. Goodbye!"
+    }
+  ],
+  "PMUL1276.json": [
+    {
+      "usr": "I am looking for a attraction in the east of town.",
+      "sys": "Sure, I can help you with that.  There are plenty of attracts to the east.  Is there a specific type of attraction you are interested in? "
+    },
+    {
+      "usr": "I'm not sure right now. What are the entrance fees like?",
+      "sys": "There is cambridge artworks. The entry is also free."
+    },
+    {
+      "usr": "I also need a train on Sunday.",
+      "sys": "What is your destination?"
+    },
+    {
+      "usr": "I am going to bishops stortford from cambridge.",
+      "sys": "At what time will you be traveling? There are 10 different trains on that day."
+    },
+    {
+      "usr": "I'd like to arrive in bishops stortford by 15:00.",
+      "sys": "I have the TR2402 which you will arrive at 14:07. How many tickets please?"
+    },
+    {
+      "usr": "None today.  Can you just give me a price for that?",
+      "sys": "It will be 8.08 a ticket."
+    },
+    {
+      "usr": "OKay can you book that please?",
+      "sys": "Sure, how many tickets would you like?"
+    },
+    {
+      "usr": "I would like 3 tickets please.",
+      "sys": "Booking was successful, the total fee is 24.24 GBP payable at the station. \nReference number is: NLGC8ADU. Can I help you with anything else?"
+    },
+    {
+      "usr": "No, thank you. That is all.",
+      "sys": "Okay, I hope you have a wonderful time in cambridge. Bye!"
+    }
+  ],
+  "MUL0264.json": [
+    {
+      "usr": "Hi, what options are available in the south of Cambridge for upscale dining?",
+      "sys": "Is there a particular cuisine you are looking for?"
+    },
+    {
+      "usr": "I'm not picky, just let me know a few types of cuisine that are in the area please.",
+      "sys": "Peking Restaurant as well as The Good Luck Food Takeaway serve Chinese food. Taj Tandoori serves Indian, and Frankie and Benny's serves Italian. There is also a Mexican restaurant, Chiquito."
+    },
+    {
+      "usr": "Frankie and Benny's sounds good. What is the phone number for that restaurant? ",
+      "sys": "The phone number to Frankie and Bennys is 01223412430."
+    },
+    {
+      "usr": "thank you. I also need a train to Cambridge arriving at 10:15 on Thursday.",
+      "sys": "What is your departure location?"
+    },
+    {
+      "usr": "I need to depart from Stansted",
+      "sys": "TR0031 departs Stansted Airport at 09:24 and arrives in Cambridge at 09:52. Would you like me to book it for you?"
+    },
+    {
+      "usr": "Could you please tell me the price for that train?",
+      "sys": "The ride will cost you 10.10 pounds. Can I book it for you?"
+    },
+    {
+      "usr": "No, that's all I need right now, thanks.",
+      "sys": "Great. Have a nice day!"
+    }
+  ],
+  "PMUL4134.json": [
+    {
+      "usr": "I am hearing some good things about queens college, can you give me some basic info on them?",
+      "sys": "Queen's College is found on Silver Street, and their phone number is 01223335511. Is there anything else you'd like to know?"
+    },
+    {
+      "usr": "Yes, I'd like to know the entrance fee, please?",
+      "sys": "The entrance free is 2.50 pounds. Can I provide you with any other information?"
+    },
+    {
+      "usr": "No thanks. I also need a train leaving Cambridge on Tuesday.",
+      "sys": "Sure, I can help you with that.  Where will you be travelling to? "
+    },
+    {
+      "usr": "I'd like to go to Leicester please.",
+      "sys": "Sure, I have a number of options for you.  What time would you like to leave? "
+    },
+    {
+      "usr": " I would like to leave after 09:45. Can you book the first one available after that and give me the reference number?",
+      "sys": "Definitely. How many people will be traveling?"
+    },
+    {
+      "usr": "Just myself will be travelling.",
+      "sys": "Ok.  I was able to book one ticket.  Your reference number is M0PIMESH."
+    },
+    {
+      "usr": "Thank you that is all I need today.",
+      "sys": "thanks for inquiring with us and have a great day"
+    },
+    {
+      "usr": "Thank you very much.",
+      "sys": "You're welcome. If we can be of further assistance, please let us know. Good-bye."
+    }
+  ],
+  "MUL2675.json": [
+    {
+      "usr": "Hello!  I am looking for information about The Cambridge Belfry.  It's a hotel in Cambridge.",
+      "sys": "Certainly, it is a fantastic 4 star hotel in the west area that is very cheap with free wifi and parking! Would you like me to book it for you?"
+    },
+    {
+      "usr": "Before you book it, can I get the address of The Cambridge Belfry?",
+      "sys": "Of course! I have Back Lane, Cambourne listed as the address, is there anything else I can help with today? "
+    },
+    {
+      "usr": "No thank you, that is everything that I need.",
+      "sys": "Okay, thank you, and have a great day."
+    },
+    {
+      "usr": "Thank you, have a great day, too.",
+      "sys": "Would you look for me to book The Cambridge Belfry for you?"
+    },
+    {
+      "usr": "Not right now. Can you recommend other places to visit in the center of town though?",
+      "sys": "I'd recommend The Man on the Moon concert hall on 2 norfolk street."
+    },
+    {
+      "usr": "Could I get the phone number for the concert hall please?",
+      "sys": "Of course. Their phone number is 01223474144. What else can I help you with?"
+    },
+    {
+      "usr": "Nothing, that should be all today, thanks!",
+      "sys": "Thank you for contacting the Cambridge TownInfo centre.  Have a good day."
+    }
+  ],
+  "PMUL1883.json": [
+    {
+      "usr": "I want to find a train leaving Cambridge and going to Bishops Stortford. Can you help me?",
+      "sys": "Yes I can what time are you wanting to leave by?"
+    },
+    {
+      "usr": "We need it to leave after 17:00 on Sunday.",
+      "sys": "I have train TR6742 that leaves at 17:29 and will have you in Bishops Stortford by 18:07. Will that work for you? "
+    },
+    {
+      "usr": "Yes could you book one ticket for me and give me the reference number?",
+      "sys": "Reference number is: BVD5QP16. Is there anything else?"
+    },
+    {
+      "usr": "Perfect, thanks! Yes, actually there is one more thing. Please get me information on the huntingdon marriott hotel",
+      "sys": "It is located in the west,is expensive and has 4 stars."
+    },
+    {
+      "usr": "Can you tell me if they have free parking? ",
+      "sys": "they do have free parking."
+    },
+    {
+      "usr": "I think that is all I need. Thank you.",
+      "sys": "You're very welcome! Have a great day!"
+    },
+    {
+      "usr": "I've really got to go. Goodbye.",
+      "sys": "Okay, let me know if I can assist with anything else."
+    }
+  ],
+  "MUL1139.json": [
+    {
+      "usr": "Hello there! Could you help me find a hotel? I am looking for one that has free parking and is expensive.",
+      "sys": "Here is a list of hotels with free parking and are expensive."
+    },
+    {
+      "usr": "I did not receive any list of hotels. Can you just pick one for me, a hotel with free parking and wifi that is upscale please.",
+      "sys": "We have the university arms hotel. It is located in centre and has wifi and parking. Would you like me to book that for you?"
+    },
+    {
+      "usr": "Yes, as long as it is expensive.  I would like to arrive on Tuesday and stay for 3 nights.  There will be 8 of us.",
+      "sys": "I'm sorry, but the hotel isn't available for you request. Would you like to try another day or shorter stay?"
+    },
+    {
+      "usr": "Can you try for 2 nights instead?",
+      "sys": "I would recommend the Huntingdon Marriott Hotel, which has what you need. Your booking reference number is FTTNX1M7. Your two night stay will begin Tuesday. Thank you!"
+    },
+    {
+      "usr": "I am also interested in visiting a college in the centre of town.  Could you help me with that?",
+      "sys": "Certainly. There are 13 colleges in the centre. Would you like more information?"
+    },
+    {
+      "usr": "Yes, please let me know the postcode and entrance fee of one in the centre area.",
+      "sys": "Christ's College is very famous, free to enter and their postcode is cb23bu. Will there be anything else?"
+    },
+    {
+      "usr": "I will need a taxi to travel between the hotel and the college. Can you handle this also?",
+      "sys": "Yes, I can. Can you please give me the time you'd like to leave or arrive by?"
+    },
+    {
+      "usr": "I would like to leave the college by 24:30 and can I also have the contact number and car type.",
+      "sys": "All right. I've booked you a black volkswagen, picking you up at 24:30 at Christ's College.  The contact number is 07324891478.  Is there anything else I can help with?"
+    },
+    {
+      "usr": "No, that's all. Thanks.",
+      "sys": "Absolutely. Thank you for contacting the help desk. Have a great day."
+    }
+  ],
+  "MUL1064.json": [
+    {
+      "usr": "Hello could you give me some information on some entertainment places in the centre of Cambridge to go visit please?",
+      "sys": "I'm sorry, there are no entertainment attractions listed in the centre of Cambridge. Would you like to search for something different?"
+    },
+    {
+      "usr": "Are there any colleges?",
+      "sys": "There are many colleges! Downing College on Regent Street is a great place to visit. It's free to get in!"
+    },
+    {
+      "usr": "soundss good. what is the address and postcode?",
+      "sys": "Downing College is on Regent Street, postcode cb21dq. Can I help you with anything else?"
+    },
+    {
+      "usr": "Thank you. What is the entrance fee for Downing College?",
+      "sys": "No, there is no entrance fee, it's free to enter."
+    },
+    {
+      "usr": "Great! Can you also help me with a place to stay, the one I'm looking for is called allenbell.",
+      "sys": "Yes, the allenbell is a 4 star guesthouse in the cheap price range on the east side of town.  Would you like me to book this for you?"
+    },
+    {
+      "usr": "Yes, for four people staying three nights starting Friday.",
+      "sys": "I've booked your party of four for three nights at Allenbell, starting Friday.  Your reference number is J597S7EH.  Would you like the address and phone number for Allenbell?"
+    },
+    {
+      "usr": "No thank you. I believe that is everything today.",
+      "sys": "Thank you for using our service. Enjoy your time here."
+    }
+  ],
+  "PMUL4643.json": [
+    {
+      "usr": "I'm looking for a restaurant in the north part and in cheap price range.",
+      "sys": "sure, i have a couple options for you"
+    },
+    {
+      "usr": "Great, thank you! What are they?",
+      "sys": "There is royal spice which is a indian restaurant. There is also Da vinci pizzeria which is a italian restaurant. Do you need any more information?"
+    },
+    {
+      "usr": "Please book a table for 5 at 14:30 on Wednesday at Royal Spice. I will need the reference number. I also need to find a place to stay.",
+      "sys": "I was able to book your table successfully. Your reference number is KQMXIL0Z. Now, what type of accommodations are you looking for today?"
+    },
+    {
+      "usr": "The hotel should be in the same area as the restaurant and should include free wifi.",
+      "sys": "Do you have a price range or star rating preference?"
+    },
+    {
+      "usr": "I'd like a hotel, not a guesthouse, and I'd like a 2-star place.",
+      "sys": "I found two options that meet your criteria:  Ashley Hotel and Lovell Lodge.  Which one would you like?"
+    },
+    {
+      "usr": "I would like to book the Ashley Hotel for 5 people for 2 nights.",
+      "sys": "What day would you like to start your stay?"
+    },
+    {
+      "usr": "On Wednesday please.",
+      "sys": "The hotel booking is complete. The reference number is JATTLNEH."
+    },
+    {
+      "usr": "Great. Thank you. Goodbye",
+      "sys": "Thank you and have a wonderful day!"
+    }
+  ],
+  "PMUL3890.json": [
+    {
+      "usr": "Can you help me find a train departing from cambridge going  to kings lynn?",
+      "sys": "of course, what day are you traveling?"
+    },
+    {
+      "usr": "I want to leave on Thursday and arrive by 14:00.",
+      "sys": "We have nine trains arriving by 14:00 that day. What time are you looking to leave by?"
+    },
+    {
+      "usr": "I don't have a specific time to leave but I do want to arrive before 14:00. How much will this cost?",
+      "sys": "The price is 9.80 pounds per ticket. would you like me to book you passage?"
+    },
+    {
+      "usr": "No thanks. Not at this time. Can you help me find a room to stay that is moderately priced?",
+      "sys": "There are a lot of moderately priced hotels. Do you have a preference on which area?"
+    },
+    {
+      "usr": "No, I don't care where it is.  I like 3 stars and I absolutely need free wifi.",
+      "sys": "Bridge guest house is a moderately priced, 3 star guesthouse with wifi in the south area. Would you like to make a reservation?"
+    },
+    {
+      "usr": "Yes, make the reservation please.",
+      "sys": "Alright, I can take care of that for you.  How many nights will you be staying?"
+    },
+    {
+      "usr": "Actually I don't need a reservation at this time.",
+      "sys": "Is there something else I can help you with then?"
+    },
+    {
+      "usr": "Nope.  That should cover it.",
+      "sys": "My pleasure."
+    }
+  ]
+}

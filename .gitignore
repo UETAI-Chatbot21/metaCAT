@@ -8,3 +8,5 @@ pyvenv.cfg
 server/*.log
 *.out
 data/
+mount/mongodb
+mount/mongoconfig

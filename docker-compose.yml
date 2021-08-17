@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+    metacat-db:
+        image: mongo
+        environment:
+            - MONGO_INITDB_DATABASE=metacat-db
+            - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+            - MONGO_INITDB_ROOT_PASSWORD=secret
+        volumes:
+            - ./mongo-entrypoint:/docker-entrypoint-initdb.d
+            - ./mount/mongodb:/data/db
+            - ./mount/mongoconfig:/data/configdb
+        ports:
+            - 27017:27017
+    
+    metacat-server:
+        build:
+            context: ./metaCATServer
+            dockerfile: Dockerfile
+        depends_on:
+            - metacat-db
+        ports:
+            - 2100:2100

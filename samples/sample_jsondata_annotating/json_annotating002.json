@@ -1,0 +1,7499 @@
+{
+  "MUL2177.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "I am looking for a place in Cambridge. It doesn't need to include internet and should be a hotel.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Internet",
+              "don't care"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "91",
+            "96"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "don't care",
+            "42",
+            "74"
+          ]
+        ]
+      },
+      {
+        "text": "I was not able to find a hotel type with no internet, but there are hotels with internet.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-NoOffer": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Internet",
+              "no"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Internet",
+              "yes"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-NoOffer",
+            "Type",
+            "hotel",
+            "25",
+            "30"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "68",
+            "74"
+          ],
+          [
+            "Hotel-NoOffer",
+            "Internet",
+            "no",
+            "36",
+            "52"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "yes",
+            "75",
+            "88"
+          ]
+        ]
+      },
+      {
+        "text": "Okay, that would be fine, as long as it has free parking.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Parking",
+              "free"
+            ],
+            [
+              "Internet",
+              "don't care"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "44",
+            "56"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "don't care",
+            "6",
+            "24"
+          ]
+        ]
+      },
+      {
+        "text": "Okay, do you have any preference on price range?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Request": [
+            [
+              "Price",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "No. How many are available?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Price",
+              "don't care"
+            ]
+          ],
+          "Hotel-Request": [
+            [
+              "Choice",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Price",
+            "don't care",
+            "0",
+            "2"
+          ]
+        ]
+      },
+      {
+        "text": "There are 8 different hotels around the city with free parking. Do you have a preference for city area or star rating? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Request": [
+            [
+              "Area",
+              "?"
+            ],
+            [
+              "Stars",
+              "?"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "Choice",
+              "8"
+            ],
+            [
+              "Parking",
+              "free"
+            ],
+            [
+              "Type",
+              "hotel"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Choice",
+            "8",
+            "10",
+            "11"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "50",
+            "62"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "22",
+            "28"
+          ]
+        ]
+      },
+      {
+        "text": "It doesn't matter to me which part of the city it's in or it's rating. In your opinion, which one would be best for a short  3 day stay?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stay",
+              "3"
+            ],
+            [
+              "Area",
+              "don't care"
+            ],
+            [
+              "Stars",
+              "don't care"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stay",
+            "3",
+            "125",
+            "126"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "don't care",
+            "0",
+            "17"
+          ],
+          [
+            "Hotel-Inform",
+            "Stars",
+            "don't care",
+            "0",
+            "17"
+          ]
+        ]
+      },
+      {
+        "text": "It's hard to say. How about the ashley hotel in the north part of town?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Recommend": [
+            [
+              "Name",
+              "ashley hotel"
+            ],
+            [
+              "Area",
+              "north"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Recommend",
+            "Name",
+            "ashley hotel",
+            "32",
+            "44"
+          ],
+          [
+            "Hotel-Recommend",
+            "Area",
+            "north",
+            "52",
+            "57"
+          ]
+        ]
+      },
+      {
+        "text": "Is there room for 4 people on Monday?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Day",
+              "Monday"
+            ],
+            [
+              "People",
+              "4"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Day",
+            "Monday",
+            "30",
+            "36"
+          ],
+          [
+            "Hotel-Inform",
+            "People",
+            "4",
+            "18",
+            "19"
+          ]
+        ]
+      },
+      {
+        "text": "Unfortunately I cannot book that day and time. Would you like to change the day or try a different hotel?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Booking-Request": [
+            [
+              "Day",
+              "?"
+            ]
+          ],
+          "Booking-NoBook": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Can i try a different hotel?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "22",
+            "27"
+          ]
+        ]
+      },
+      {
+        "text": "How about the Express by Holiday Inn and Cambridge, a 2 star, or Huntingdon Marriott Hotel, a 4 star? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Select": [
+            [
+              "Stars",
+              "2"
+            ],
+            [
+              "Stars",
+              "4"
+            ],
+            [
+              "Name",
+              "Express by Holiday Inn and Cambridge"
+            ],
+            [
+              "Name",
+              "Huntingdon Marriott Hotel"
+            ],
+            [
+              "Choice",
+              "2"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Select",
+            "Stars",
+            "2",
+            "54",
+            "55"
+          ],
+          [
+            "Hotel-Select",
+            "Stars",
+            "4",
+            "94",
+            "95"
+          ],
+          [
+            "Hotel-Select",
+            "Name",
+            "Express by Holiday Inn and Cambridge",
+            "14",
+            "50"
+          ],
+          [
+            "Hotel-Select",
+            "Name",
+            "Huntingdon Marriott Hotel",
+            "65",
+            "90"
+          ]
+        ]
+      },
+      {
+        "text": "Do either of those include free parking?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Parking",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "27",
+            "39"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, they both have free parking, and internet as well. The Marriott is in the west, and Holiday Inn in the east. Does area of the city matter to you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Choice",
+              "both"
+            ],
+            [
+              "Name",
+              "Marriott"
+            ],
+            [
+              "Name",
+              "Holiday Inn"
+            ],
+            [
+              "Area",
+              "west"
+            ],
+            [
+              "Area",
+              "east"
+            ]
+          ],
+          "Hotel-Request": [
+            [
+              "Area",
+              "?"
+            ]
+          ],
+          "Hotel-Select": [
+            [
+              "Parking",
+              "free"
+            ],
+            [
+              "Internet",
+              "yes"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Choice",
+            "both",
+            "10",
+            "14"
+          ],
+          [
+            "Hotel-Inform",
+            "Name",
+            "Marriott",
+            "60",
+            "68"
+          ],
+          [
+            "Hotel-Inform",
+            "Name",
+            "Holiday Inn",
+            "89",
+            "100"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "west",
+            "79",
+            "83"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "east",
+            "108",
+            "112"
+          ],
+          [
+            "Hotel-Select",
+            "Parking",
+            "free",
+            "20",
+            "32"
+          ],
+          [
+            "Hotel-Select",
+            "Internet",
+            "yes",
+            "38",
+            "46"
+          ]
+        ]
+      },
+      {
+        "text": "No, that does not matter, as long as I can book a 3 night stay for 4 people on Monday.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stay",
+              "3"
+            ],
+            [
+              "Area",
+              "don't care"
+            ],
+            [
+              "People",
+              "4"
+            ],
+            [
+              "Day",
+              "Monday"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stay",
+            "3",
+            "50",
+            "51"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "don't care",
+            "9",
+            "24"
+          ],
+          [
+            "Hotel-Inform",
+            "People",
+            "4",
+            "67",
+            "68"
+          ],
+          [
+            "Hotel-Inform",
+            "Day",
+            "Monday",
+            "79",
+            "85"
+          ]
+        ]
+      },
+      {
+        "text": "I was not able to book at either location, can I try something else?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Booking-NoBook": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "What else is available?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Request": [
+            [
+              "Choice",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "ashley hotel is available, can i provide you more information on it? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "Name",
+              "ashley hotel"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "ashley hotel",
+            "0",
+            "12"
+          ]
+        ]
+      },
+      {
+        "text": "We can try and book that one as long as free parking.  4 people for 3 nights.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stay",
+              "3"
+            ],
+            [
+              "People",
+              "4"
+            ],
+            [
+              "Parking",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stay",
+            "3",
+            "68",
+            "69"
+          ],
+          [
+            "Hotel-Inform",
+            "People",
+            "4",
+            "55",
+            "56"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "40",
+            "52"
+          ]
+        ]
+      },
+      {
+        "text": "The only hotel available is university arms hotel. You are booked and the reference number is YJJTTQ9X. It comes with parking and internet and is in the centre.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "university arms hotel",
+                  "reference": "YJJTTQ9X"
+                }
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Area",
+              "centre"
+            ],
+            [
+              "Name",
+              "university arms hotel"
+            ],
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Parking",
+              "yes"
+            ],
+            [
+              "Internet",
+              "yes"
+            ]
+          ],
+          "Booking-Book": [
+            [
+              "Ref",
+              "YJJTTQ9X"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Area",
+            "centre",
+            "153",
+            "159"
+          ],
+          [
+            "Hotel-Inform",
+            "Name",
+            "university arms hotel",
+            "28",
+            "49"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "9",
+            "14"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "yes",
+            "113",
+            "125"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "yes",
+            "130",
+            "138"
+          ],
+          [
+            "Booking-Book",
+            "Ref",
+            "YJJTTQ9X",
+            "94",
+            "102"
+          ]
+        ]
+      },
+      {
+        "text": "Thank you. I also need a train from Cambridge on Thursday.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Day",
+              "thursday"
+            ],
+            [
+              "Depart",
+              "cambridge"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Day",
+            "thursday",
+            "49",
+            "57"
+          ],
+          [
+            "Train-Inform",
+            "Depart",
+            "cambridge",
+            "36",
+            "45"
+          ]
+        ]
+      },
+      {
+        "text": "Sure. Where are you headed to and what time would you like to leave Cambridge?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "university arms hotel",
+                  "reference": "YJJTTQ9X"
+                }
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Leave",
+              "?"
+            ],
+            [
+              "Dest",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I must arrive by 12:45.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Arrive",
+              "12:45"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "12:45",
+            "17",
+            "22"
+          ]
+        ]
+      },
+      {
+        "text": "Okay!  Where are you going?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "university arms hotel",
+                  "reference": "YJJTTQ9X"
+                }
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Dest",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I'm going to birmingham new street.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "birmingham new street"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "birmingham new street",
+            "13",
+            "34"
+          ]
+        ]
+      },
+      {
+        "text": "TR2636 arrives at 11:44. Would you like to reserve seats?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "university arms hotel",
+                  "reference": "YJJTTQ9X"
+                }
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Arrive",
+              "11:44"
+            ],
+            [
+              "Id",
+              "TR2636"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "11:44",
+            "18",
+            "23"
+          ],
+          [
+            "Train-Inform",
+            "Id",
+            "TR2636",
+            "0",
+            "6"
+          ]
+        ]
+      },
+      {
+        "text": "That sounds good.  Can you give me the price as well? Thanks.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Ticket",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Sure.  The price is 75.10 pounds per ticket.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "university arms hotel",
+                  "reference": "YJJTTQ9X"
+                }
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Ticket",
+              "75.10 pounds"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Ticket",
+            "75.10 pounds",
+            "20",
+            "32"
+          ]
+        ]
+      },
+      {
+        "text": "Great!  That is all I'm going to need today.  Thanks for your help!  ",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Thank you for contacting Cambridge TownInfo centre. Goodbye!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "university arms hotel",
+                  "reference": "YJJTTQ9X"
+                }
+              ],
+              "people": "4",
+              "day": "monday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "PMUL1276.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "I am looking for a attraction in the east of town.",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Area",
+              "east"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Area",
+            "east",
+            "37",
+            "41"
+          ]
+        ]
+      },
+      {
+        "text": "Sure, I can help you with that.  There are plenty of attracts to the east.  Is there a specific type of attraction you are interested in? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Request": [
+            [
+              "Type",
+              "?"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Area",
+              "east"
+            ],
+            [
+              "Choice",
+              "plenty"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Area",
+            "east",
+            "69",
+            "73"
+          ],
+          [
+            "Attraction-Inform",
+            "Choice",
+            "plenty",
+            "43",
+            "49"
+          ]
+        ]
+      },
+      {
+        "text": "I'm not sure right now. What are the entrance fees like?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Request": [
+            [
+              "Fee",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "There is cambridge artworks. The entry is also free.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Name",
+              "cambridge artworks"
+            ],
+            [
+              "Fee",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Name",
+            "cambridge artworks",
+            "9",
+            "27"
+          ],
+          [
+            "Attraction-Inform",
+            "Fee",
+            "free",
+            "47",
+            "51"
+          ]
+        ]
+      },
+      {
+        "text": "I also need a train on Sunday.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Day",
+              "sunday"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Day",
+            "sunday",
+            "23",
+            "29"
+          ]
+        ]
+      },
+      {
+        "text": "What is your destination?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Dest",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I am going to bishops stortford from cambridge.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "bishops stortford"
+            ],
+            [
+              "Depart",
+              "cambridge"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "bishops stortford",
+            "14",
+            "31"
+          ],
+          [
+            "Train-Inform",
+            "Depart",
+            "cambridge",
+            "37",
+            "46"
+          ]
+        ]
+      },
+      {
+        "text": "At what time will you be traveling? There are 10 different trains on that day.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Choice",
+              "10"
+            ],
+            [
+              "Day",
+              "Sunday"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Leave",
+              "?"
+            ],
+            [
+              "Arrive",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Choice",
+            "10",
+            "46",
+            "48"
+          ],
+          [
+            "Train-Inform",
+            "Day",
+            "Sunday",
+            "69",
+            "77"
+          ]
+        ]
+      },
+      {
+        "text": "I'd like to arrive in bishops stortford by 15:00.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "bishops stortford"
+            ],
+            [
+              "Arrive",
+              "15:00"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "bishops stortford",
+            "22",
+            "39"
+          ],
+          [
+            "Train-Inform",
+            "Arrive",
+            "15:00",
+            "43",
+            "48"
+          ]
+        ]
+      },
+      {
+        "text": "I have the TR2402 which you will arrive at 14:07. How many tickets please?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Arrive",
+              "14:07"
+            ],
+            [
+              "Id",
+              "TR2402"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "People",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "14:07",
+            "43",
+            "48"
+          ],
+          [
+            "Train-Inform",
+            "Id",
+            "TR2402",
+            "11",
+            "17"
+          ]
+        ]
+      },
+      {
+        "text": "None today.  Can you just give me a price for that?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Ticket",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "It will be 8.08 a ticket.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Ticket",
+              "8.08"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Ticket",
+            "8.08",
+            "11",
+            "15"
+          ]
+        ]
+      },
+      {
+        "text": "OKay can you book that please?",
+        "metadata": {},
+        "dialog_act": {},
+        "span_info": []
+      },
+      {
+        "text": "Sure, how many tickets would you like?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "People",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I would like 3 tickets please.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "People",
+              "3"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "People",
+            "3",
+            "13",
+            "14"
+          ]
+        ]
+      },
+      {
+        "text": "Booking was successful, the total fee is 24.24 GBP payable at the station. \nReference number is: NLGC8ADU. Can I help you with anything else?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR2402",
+                  "reference": "NLGC8ADU"
+                }
+              ],
+              "people": "3"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Train-Inform": [
+            [
+              "Ticket",
+              "24.24 GBP"
+            ]
+          ],
+          "Booking-Book": [
+            [
+              "Ref",
+              "NLGC8ADU"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Ticket",
+            "24.24 GBP",
+            "41",
+            "50"
+          ],
+          [
+            "Booking-Book",
+            "Ref",
+            "NLGC8ADU",
+            "97",
+            "105"
+          ]
+        ]
+      },
+      {
+        "text": "No, thank you. That is all.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Okay, I hope you have a wonderful time in cambridge. Bye!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR2402",
+                  "reference": "NLGC8ADU"
+                }
+              ],
+              "people": "3"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "MUL0264.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "Hi, what options are available in the south of Cambridge for upscale dining?",
+        "metadata": {},
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "Area",
+              "south"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Area",
+            "south",
+            "38",
+            "43"
+          ]
+        ]
+      },
+      {
+        "text": "Is there a particular cuisine you are looking for?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Restaurant-Request": [
+            [
+              "Food",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I'm not picky, just let me know a few types of cuisine that are in the area please.",
+        "metadata": {},
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "Area",
+              "south"
+            ]
+          ],
+          "Restaurant-Request": [
+            [
+              "Food",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Area",
+            "south",
+            "67",
+            "75"
+          ]
+        ]
+      },
+      {
+        "text": "Peking Restaurant as well as The Good Luck Food Takeaway serve Chinese food. Taj Tandoori serves Indian, and Frankie and Benny's serves Italian. There is also a Mexican restaurant, Chiquito.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Restaurant-Recommend": [
+            [
+              "Name",
+              "Peking Restaurant"
+            ],
+            [
+              "Name",
+              "The Good Luck Food Takeaway"
+            ],
+            [
+              "Name",
+              "Taj Tandoori"
+            ],
+            [
+              "Name",
+              "Frankie and Benny's"
+            ],
+            [
+              "Name",
+              "Chiquito"
+            ],
+            [
+              "Food",
+              "Chinese"
+            ],
+            [
+              "Food",
+              "Indian"
+            ],
+            [
+              "Food",
+              "Italian"
+            ],
+            [
+              "Food",
+              "Mexican"
+            ],
+            [
+              "Choice",
+              "5"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Recommend",
+            "Name",
+            "Peking Restaurant",
+            "0",
+            "17"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Name",
+            "The Good Luck Food Takeaway",
+            "29",
+            "56"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Name",
+            "Taj Tandoori",
+            "77",
+            "89"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Name",
+            "Frankie and Benny's",
+            "109",
+            "128"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Name",
+            "Chiquito",
+            "181",
+            "189"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Food",
+            "Chinese",
+            "63",
+            "70"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Food",
+            "Indian",
+            "97",
+            "103"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Food",
+            "Italian",
+            "136",
+            "143"
+          ],
+          [
+            "Restaurant-Recommend",
+            "Food",
+            "Mexican",
+            "161",
+            "168"
+          ]
+        ]
+      },
+      {
+        "text": "Frankie and Benny's sounds good. What is the phone number for that restaurant? ",
+        "metadata": {},
+        "dialog_act": {
+          "Restaurant-Request": [
+            [
+              "Phone",
+              "?"
+            ]
+          ],
+          "Restaurant-Inform": [
+            [
+              "Name",
+              "Frankie and Benny's"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Name",
+            "Frankie and Benny's",
+            "0",
+            "19"
+          ]
+        ]
+      },
+      {
+        "text": "The phone number to Frankie and Bennys is 01223412430.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "Phone",
+              "01223412430"
+            ],
+            [
+              "Name",
+              "Frankie and Bennys"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Phone",
+            "01223412430",
+            "42",
+            "53"
+          ],
+          [
+            "Restaurant-Inform",
+            "Name",
+            "Frankie and Bennys",
+            "20",
+            "38"
+          ]
+        ]
+      },
+      {
+        "text": "thank you. I also need a train to Cambridge arriving at 10:15 on Thursday.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "cambridge"
+            ],
+            [
+              "Day",
+              "thursday"
+            ],
+            [
+              "Arrive",
+              "10:15"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "cambridge",
+            "34",
+            "43"
+          ],
+          [
+            "Train-Inform",
+            "Day",
+            "thursday",
+            "65",
+            "73"
+          ],
+          [
+            "Train-Inform",
+            "Arrive",
+            "10:15",
+            "56",
+            "61"
+          ]
+        ]
+      },
+      {
+        "text": "What is your departure location?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Depart",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I need to depart from Stansted",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Depart",
+              "Stansted"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Depart",
+            "Stansted",
+            "22",
+            "30"
+          ]
+        ]
+      },
+      {
+        "text": "TR0031 departs Stansted Airport at 09:24 and arrives in Cambridge at 09:52. Would you like me to book it for you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Arrive",
+              "09:52"
+            ],
+            [
+              "Id",
+              "TR0031"
+            ],
+            [
+              "Dest",
+              "Cambridge"
+            ],
+            [
+              "Depart",
+              "Stansted Airport"
+            ],
+            [
+              "Leave",
+              "09:24"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "09:52",
+            "69",
+            "74"
+          ],
+          [
+            "Train-Inform",
+            "Id",
+            "TR0031",
+            "0",
+            "6"
+          ],
+          [
+            "Train-Inform",
+            "Dest",
+            "Cambridge",
+            "56",
+            "65"
+          ],
+          [
+            "Train-Inform",
+            "Depart",
+            "Stansted Airport",
+            "15",
+            "31"
+          ],
+          [
+            "Train-Inform",
+            "Leave",
+            "09:24",
+            "35",
+            "40"
+          ]
+        ]
+      },
+      {
+        "text": "Could you please tell me the price for that train?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Ticket",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "The ride will cost you 10.10 pounds. Can I book it for you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Ticket",
+              "10.10 pounds"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Ticket",
+            "10.10 pounds",
+            "23",
+            "35"
+          ]
+        ]
+      },
+      {
+        "text": "No, that's all I need right now, thanks.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Great. Have a nice day!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "PMUL4134.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "I am hearing some good things about queens college, can you give me some basic info on them?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Type",
+              "college"
+            ],
+            [
+              "Name",
+              "queens college"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Type",
+            "college",
+            "43",
+            "50"
+          ],
+          [
+            "Attraction-Inform",
+            "Name",
+            "queens college",
+            "36",
+            "50"
+          ]
+        ]
+      },
+      {
+        "text": "Queen's College is found on Silver Street, and their phone number is 01223335511. Is there anything else you'd like to know?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Name",
+              "Queen's College"
+            ],
+            [
+              "Addr",
+              "Silver Street"
+            ],
+            [
+              "Phone",
+              "01223335511"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Name",
+            "Queen's College",
+            "0",
+            "15"
+          ],
+          [
+            "Attraction-Inform",
+            "Addr",
+            "Silver Street",
+            "28",
+            "41"
+          ],
+          [
+            "Attraction-Inform",
+            "Phone",
+            "01223335511",
+            "69",
+            "80"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, I'd like to know the entrance fee, please?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Request": [
+            [
+              "Fee",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "The entrance free is 2.50 pounds. Can I provide you with any other information?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Fee",
+              "2.50 pounds"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Fee",
+            "2.50 pounds",
+            "21",
+            "32"
+          ]
+        ]
+      },
+      {
+        "text": "No thanks. I also need a train leaving Cambridge on Tuesday.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Day",
+              "tuesday"
+            ],
+            [
+              "Depart",
+              "cambridge"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Day",
+            "tuesday",
+            "52",
+            "59"
+          ],
+          [
+            "Train-Inform",
+            "Depart",
+            "cambridge",
+            "39",
+            "48"
+          ]
+        ]
+      },
+      {
+        "text": "Sure, I can help you with that.  Where will you be travelling to? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Dest",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I'd like to go to Leicester please.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "leicester"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "leicester",
+            "18",
+            "27"
+          ]
+        ]
+      },
+      {
+        "text": "Sure, I have a number of options for you.  What time would you like to leave? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Leave",
+              "?"
+            ]
+          ],
+          "Train-Inform": [
+            [
+              "Choice",
+              "a number"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Choice",
+            "a number",
+            "13",
+            "21"
+          ]
+        ]
+      },
+      {
+        "text": " I would like to leave after 09:45. Can you book the first one available after that and give me the reference number?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Leave",
+              "09:45"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Ref",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Leave",
+            "09:45",
+            "29",
+            "34"
+          ]
+        ]
+      },
+      {
+        "text": "Definitely. How many people will be traveling?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "People",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Just myself will be travelling.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "People",
+              "1"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "People",
+            "1",
+            "0",
+            "11"
+          ]
+        ]
+      },
+      {
+        "text": "Ok.  I was able to book one ticket.  Your reference number is M0PIMESH.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR3462",
+                  "reference": "M0PIMESH"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Booking-Book": [
+            [
+              "Ref",
+              "M0PIMESH"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Booking-Book",
+            "Ref",
+            "M0PIMESH",
+            "62",
+            "70"
+          ]
+        ]
+      },
+      {
+        "text": "Thank you that is all I need today.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "thanks for inquiring with us and have a great day",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR3462",
+                  "reference": "M0PIMESH"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Thank you very much.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "You're welcome. If we can be of further assistance, please let us know. Good-bye.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR3462",
+                  "reference": "M0PIMESH"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-welcome": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "MUL2675.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "Hello!  I am looking for information about The Cambridge Belfry.  It's a hotel in Cambridge.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "The Cambridge Belfry"
+            ],
+            [
+              "Type",
+              "hotel"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "The Cambridge Belfry",
+            "43",
+            "63"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "73",
+            "78"
+          ]
+        ]
+      },
+      {
+        "text": "Certainly, it is a fantastic 4 star hotel in the west area that is very cheap with free wifi and parking! Would you like me to book it for you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Area",
+              "west"
+            ],
+            [
+              "Price",
+              "very cheap"
+            ],
+            [
+              "Stars",
+              "4"
+            ],
+            [
+              "Internet",
+              "free"
+            ],
+            [
+              "Parking",
+              "free"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Area",
+            "west",
+            "49",
+            "58"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "very cheap",
+            "67",
+            "77"
+          ],
+          [
+            "Hotel-Inform",
+            "Stars",
+            "4",
+            "29",
+            "30"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "free",
+            "83",
+            "92"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "83",
+            "104"
+          ]
+        ]
+      },
+      {
+        "text": "Before you book it, can I get the address of The Cambridge Belfry?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "the cambridge belfry"
+            ]
+          ],
+          "Hotel-Request": [
+            [
+              "Addr",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "the cambridge belfry",
+            "45",
+            "65"
+          ]
+        ]
+      },
+      {
+        "text": "Of course! I have Back Lane, Cambourne listed as the address, is there anything else I can help with today? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "Addr",
+              "Back Lane"
+            ],
+            [
+              "Addr",
+              "Cambourne"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Addr",
+            "Back Lane",
+            "18",
+            "27"
+          ],
+          [
+            "Hotel-Inform",
+            "Addr",
+            "Cambourne",
+            "29",
+            "38"
+          ]
+        ]
+      },
+      {
+        "text": "No thank you, that is everything that I need.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Okay, thank you, and have a great day.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-welcome": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Thank you, have a great day, too.",
+        "metadata": {},
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Would you look for me to book The Cambridge Belfry for you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "The Cambridge Belfry"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "The Cambridge Belfry",
+            "30",
+            "50"
+          ]
+        ]
+      },
+      {
+        "text": "Not right now. Can you recommend other places to visit in the center of town though?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Area",
+              "center"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Area",
+            "center",
+            "62",
+            "68"
+          ]
+        ]
+      },
+      {
+        "text": "I'd recommend The Man on the Moon concert hall on 2 norfolk street.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Attraction-Recommend": [
+            [
+              "Addr",
+              "2 norfolk street"
+            ],
+            [
+              "Type",
+              "concert hall"
+            ],
+            [
+              "Name",
+              "The Man on the Moon"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Recommend",
+            "Addr",
+            "2 norfolk street",
+            "50",
+            "66"
+          ],
+          [
+            "Attraction-Recommend",
+            "Type",
+            "concert hall",
+            "34",
+            "46"
+          ],
+          [
+            "Attraction-Recommend",
+            "Name",
+            "The Man on the Moon",
+            "14",
+            "33"
+          ]
+        ]
+      },
+      {
+        "text": "Could I get the phone number for the concert hall please?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Request": [
+            [
+              "Phone",
+              "?"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Name",
+              "The Man on the Moon"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Name",
+            "The Man on the Moon",
+            "33",
+            "49"
+          ]
+        ]
+      },
+      {
+        "text": "Of course. Their phone number is 01223474144. What else can I help you with?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Phone",
+              "01223474144"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Phone",
+            "01223474144",
+            "33",
+            "44"
+          ]
+        ]
+      },
+      {
+        "text": "Nothing, that should be all today, thanks!",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Thank you for contacting the Cambridge TownInfo centre.  Have a good day.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-welcome": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "PMUL1883.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "I want to find a train leaving Cambridge and going to Bishops Stortford. Can you help me?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "bishops stortford"
+            ],
+            [
+              "Depart",
+              "cambridge"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "bishops stortford",
+            "54",
+            "71"
+          ],
+          [
+            "Train-Inform",
+            "Depart",
+            "cambridge",
+            "31",
+            "40"
+          ]
+        ]
+      },
+      {
+        "text": "Yes I can what time are you wanting to leave by?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Leave",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "We need it to leave after 17:00 on Sunday.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Day",
+              "sunday"
+            ],
+            [
+              "Leave",
+              "17:00"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Day",
+            "sunday",
+            "35",
+            "41"
+          ],
+          [
+            "Train-Inform",
+            "Leave",
+            "17:00",
+            "26",
+            "31"
+          ]
+        ]
+      },
+      {
+        "text": "I have train TR6742 that leaves at 17:29 and will have you in Bishops Stortford by 18:07. Will that work for you? ",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Train-Inform": [
+            [
+              "Arrive",
+              "18:07"
+            ],
+            [
+              "Leave",
+              "17:29"
+            ],
+            [
+              "Dest",
+              "Bishops Stortford"
+            ],
+            [
+              "Id",
+              "TR6742"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "18:07",
+            "83",
+            "88"
+          ],
+          [
+            "Train-Inform",
+            "Leave",
+            "17:29",
+            "35",
+            "40"
+          ],
+          [
+            "Train-Inform",
+            "Dest",
+            "Bishops Stortford",
+            "62",
+            "79"
+          ],
+          [
+            "Train-Inform",
+            "Id",
+            "TR6742",
+            "13",
+            "19"
+          ]
+        ]
+      },
+      {
+        "text": "Yes could you book one ticket for me and give me the reference number?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "People",
+              "1"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Ref",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "People",
+            "1",
+            "19",
+            "22"
+          ]
+        ]
+      },
+      {
+        "text": "Reference number is: BVD5QP16. Is there anything else?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR6742",
+                  "reference": "BVD5QP16"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Booking-Book": [
+            [
+              "Ref",
+              "BVD5QP16"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Booking-Book",
+            "Ref",
+            "BVD5QP16",
+            "21",
+            "29"
+          ]
+        ]
+      },
+      {
+        "text": "Perfect, thanks! Yes, actually there is one more thing. Please get me information on the huntingdon marriott hotel",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "huntingdon marriott hotel"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "huntingdon marriott hotel",
+            "89",
+            "114"
+          ]
+        ]
+      },
+      {
+        "text": "It is located in the west,is expensive and has 4 stars.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR6742",
+                  "reference": "BVD5QP16"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stars",
+              "4"
+            ],
+            [
+              "Price",
+              "expensive"
+            ],
+            [
+              "Area",
+              "west"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stars",
+            "4",
+            "47",
+            "48"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "expensive",
+            "29",
+            "38"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "west",
+            "21",
+            "25"
+          ]
+        ]
+      },
+      {
+        "text": "Can you tell me if they have free parking? ",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Request": [
+            [
+              "Parking",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "they do have free parking.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR6742",
+                  "reference": "BVD5QP16"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Parking",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "13",
+            "25"
+          ]
+        ]
+      },
+      {
+        "text": "I think that is all I need. Thank you.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "You're very welcome! Have a great day!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR6742",
+                  "reference": "BVD5QP16"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-welcome": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I've really got to go. Goodbye.",
+        "metadata": {},
+        "dialog_act": {},
+        "span_info": []
+      },
+      {
+        "text": "Okay, let me know if I can assist with anything else.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {
+                  "trainID": "TR6742",
+                  "reference": "BVD5QP16"
+                }
+              ],
+              "people": "1"
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "MUL1139.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "Hello there! Could you help me find a hotel? I am looking for one that has free parking and is expensive.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Price",
+              "expensive"
+            ],
+            [
+              "Parking",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "38",
+            "43"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "expensive",
+            "95",
+            "104"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "75",
+            "87"
+          ]
+        ]
+      },
+      {
+        "text": "Here is a list of hotels with free parking and are expensive.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Price",
+              "expensive"
+            ],
+            [
+              "Choice",
+              "a list"
+            ],
+            [
+              "Parking",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Price",
+            "expensive",
+            "51",
+            "60"
+          ],
+          [
+            "Hotel-Inform",
+            "Choice",
+            "a list",
+            "8",
+            "14"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "30",
+            "42"
+          ]
+        ]
+      },
+      {
+        "text": "I did not receive any list of hotels. Can you just pick one for me, a hotel with free parking and wifi that is upscale please.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Parking",
+              "free"
+            ],
+            [
+              "Internet",
+              "yes"
+            ],
+            [
+              "Price",
+              "expensive"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "30",
+            "35"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "free",
+            "81",
+            "93"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "yes",
+            "98",
+            "102"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "expensive",
+            "111",
+            "118"
+          ]
+        ]
+      },
+      {
+        "text": "We have the university arms hotel. It is located in centre and has wifi and parking. Would you like me to book that for you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Recommend": [
+            [
+              "Name",
+              "university arms hotel"
+            ],
+            [
+              "Area",
+              "centre"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "Internet",
+              "yes"
+            ],
+            [
+              "Parking",
+              "yes"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Recommend",
+            "Name",
+            "university arms hotel",
+            "12",
+            "33"
+          ],
+          [
+            "Hotel-Recommend",
+            "Area",
+            "centre",
+            "52",
+            "58"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "yes",
+            "67",
+            "71"
+          ],
+          [
+            "Hotel-Inform",
+            "Parking",
+            "yes",
+            "76",
+            "83"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, as long as it is expensive.  I would like to arrive on Tuesday and stay for 3 nights.  There will be 8 of us.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Price",
+              "expensive"
+            ],
+            [
+              "Stay",
+              "3"
+            ],
+            [
+              "Day",
+              "tuesday"
+            ],
+            [
+              "People",
+              "8"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Price",
+            "expensive",
+            "22",
+            "31"
+          ],
+          [
+            "Hotel-Inform",
+            "Stay",
+            "3",
+            "81",
+            "82"
+          ],
+          [
+            "Hotel-Inform",
+            "Day",
+            "tuesday",
+            "60",
+            "67"
+          ],
+          [
+            "Hotel-Inform",
+            "People",
+            "8",
+            "106",
+            "107"
+          ]
+        ]
+      },
+      {
+        "text": "I'm sorry, but the hotel isn't available for you request. Would you like to try another day or shorter stay?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Booking-Request": [
+            [
+              "Stay",
+              "?"
+            ],
+            [
+              "Day",
+              "?"
+            ]
+          ],
+          "Booking-NoBook": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Can you try for 2 nights instead?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stay",
+              "2"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stay",
+            "2",
+            "16",
+            "17"
+          ]
+        ]
+      },
+      {
+        "text": "I would recommend the Huntingdon Marriott Hotel, which has what you need. Your booking reference number is FTTNX1M7. Your two night stay will begin Tuesday. Thank you!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "huntingdon marriott hotel",
+                  "reference": "FTTNX1M7"
+                }
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Recommend": [
+            [
+              "Name",
+              "Huntingdon Marriott Hotel"
+            ]
+          ],
+          "Booking-Book": [
+            [
+              "Stay",
+              "2"
+            ],
+            [
+              "Day",
+              "Tuesday"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "Ref",
+              "FTTNX1M7"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Recommend",
+            "Name",
+            "Huntingdon Marriott Hotel",
+            "22",
+            "47"
+          ],
+          [
+            "Booking-Book",
+            "Stay",
+            "2",
+            "122",
+            "125"
+          ],
+          [
+            "Booking-Book",
+            "Day",
+            "Tuesday",
+            "148",
+            "155"
+          ],
+          [
+            "Booking-Inform",
+            "Ref",
+            "FTTNX1M7",
+            "107",
+            "115"
+          ]
+        ]
+      },
+      {
+        "text": "I am also interested in visiting a college in the centre of town.  Could you help me with that?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Area",
+              "centre"
+            ],
+            [
+              "Type",
+              "college"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Area",
+            "centre",
+            "50",
+            "56"
+          ],
+          [
+            "Attraction-Inform",
+            "Type",
+            "college",
+            "35",
+            "42"
+          ]
+        ]
+      },
+      {
+        "text": "Certainly. There are 13 colleges in the centre. Would you like more information?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "huntingdon marriott hotel",
+                  "reference": "FTTNX1M7"
+                }
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Type",
+              "college"
+            ],
+            [
+              "Area",
+              "centre"
+            ],
+            [
+              "Choice",
+              "13"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Type",
+            "college",
+            "24",
+            "32"
+          ],
+          [
+            "Attraction-Inform",
+            "Area",
+            "centre",
+            "40",
+            "46"
+          ],
+          [
+            "Attraction-Inform",
+            "Choice",
+            "13",
+            "21",
+            "23"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, please let me know the postcode and entrance fee of one in the centre area.",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Request": [
+            [
+              "Fee",
+              "?"
+            ],
+            [
+              "Post",
+              "?"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Area",
+              "centre"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Area",
+            "centre",
+            "68",
+            "74"
+          ]
+        ]
+      },
+      {
+        "text": "Christ's College is very famous, free to enter and their postcode is cb23bu. Will there be anything else?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "huntingdon marriott hotel",
+                  "reference": "FTTNX1M7"
+                }
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Recommend": [
+            [
+              "Post",
+              "cb23bu"
+            ],
+            [
+              "Name",
+              "Christ's College"
+            ],
+            [
+              "Fee",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Recommend",
+            "Post",
+            "cb23bu",
+            "69",
+            "75"
+          ],
+          [
+            "Attraction-Recommend",
+            "Name",
+            "Christ's College",
+            "0",
+            "16"
+          ],
+          [
+            "Attraction-Recommend",
+            "Fee",
+            "free",
+            "33",
+            "37"
+          ]
+        ]
+      },
+      {
+        "text": "I will need a taxi to travel between the hotel and the college. Can you handle this also?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ]
+          ],
+          "Taxi-Inform": [
+            [
+              "Depart",
+              "Huntingdon Marriott Hotel"
+            ],
+            [
+              "Dest",
+              "Christ's College"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "41",
+            "46"
+          ],
+          [
+            "Taxi-Inform",
+            "Depart",
+            "Huntingdon Marriott Hotel",
+            "37",
+            "46"
+          ],
+          [
+            "Taxi-Inform",
+            "Dest",
+            "Christ's College",
+            "51",
+            "62"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, I can. Can you please give me the time you'd like to leave or arrive by?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "huntingdon marriott hotel",
+                  "reference": "FTTNX1M7"
+                }
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Taxi-Request": [
+            [
+              "Arrive",
+              "?"
+            ],
+            [
+              "Leave",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I would like to leave the college by 24:30 and can I also have the contact number and car type.",
+        "metadata": {},
+        "dialog_act": {
+          "Taxi-Inform": [
+            [
+              "Leave",
+              "24:30"
+            ],
+            [
+              "Depart",
+              "Christ's College"
+            ]
+          ],
+          "Taxi-Request": [
+            [
+              "Car",
+              "?"
+            ],
+            [
+              "Phone",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Taxi-Inform",
+            "Leave",
+            "24:30",
+            "37",
+            "42"
+          ],
+          [
+            "Taxi-Inform",
+            "Depart",
+            "Christ's College",
+            "22",
+            "33"
+          ]
+        ]
+      },
+      {
+        "text": "All right. I've booked you a black volkswagen, picking you up at 24:30 at Christ's College.  The contact number is 07324891478.  Is there anything else I can help with?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "huntingdon marriott hotel",
+                  "reference": "FTTNX1M7"
+                }
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Taxi-Inform": [
+            [
+              "Phone",
+              "07324891478"
+            ],
+            [
+              "Leave",
+              "24:30"
+            ],
+            [
+              "Car",
+              "black volkswagen"
+            ],
+            [
+              "Depart",
+              "Christ's College"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Taxi-Inform",
+            "Phone",
+            "07324891478",
+            "115",
+            "126"
+          ],
+          [
+            "Taxi-Inform",
+            "Leave",
+            "24:30",
+            "65",
+            "70"
+          ],
+          [
+            "Taxi-Inform",
+            "Car",
+            "black volkswagen",
+            "29",
+            "45"
+          ],
+          [
+            "Taxi-Inform",
+            "Depart",
+            "Christ's College",
+            "74",
+            "90"
+          ]
+        ]
+      },
+      {
+        "text": "No, that's all. Thanks.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Absolutely. Thank you for contacting the help desk. Have a great day.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "huntingdon marriott hotel",
+                  "reference": "FTTNX1M7"
+                }
+              ],
+              "people": "8",
+              "day": "tuesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "MUL1064.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "Hello could you give me some information on some entertainment places in the centre of Cambridge to go visit please?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Area",
+              "centre"
+            ],
+            [
+              "Type",
+              "entertainment"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Area",
+            "centre",
+            "77",
+            "83"
+          ],
+          [
+            "Attraction-Inform",
+            "Type",
+            "entertainment",
+            "49",
+            "62"
+          ]
+        ]
+      },
+      {
+        "text": "I'm sorry, there are no entertainment attractions listed in the centre of Cambridge. Would you like to search for something different?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-NoOffer": [
+            [
+              "Area",
+              "centre"
+            ],
+            [
+              "Type",
+              "entertainment"
+            ]
+          ],
+          "Attraction-Request": [
+            [
+              "Type",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-NoOffer",
+            "Area",
+            "centre",
+            "64",
+            "70"
+          ],
+          [
+            "Attraction-NoOffer",
+            "Type",
+            "entertainment",
+            "24",
+            "37"
+          ]
+        ]
+      },
+      {
+        "text": "Are there any colleges?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Type",
+              "college"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Type",
+            "college",
+            "14",
+            "21"
+          ]
+        ]
+      },
+      {
+        "text": "There are many colleges! Downing College on Regent Street is a great place to visit. It's free to get in!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Attraction-Recommend": [
+            [
+              "Fee",
+              "free"
+            ],
+            [
+              "Addr",
+              "Regent Street"
+            ],
+            [
+              "Name",
+              "Downing College"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Type",
+              "colleges"
+            ],
+            [
+              "Choice",
+              "many"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Recommend",
+            "Fee",
+            "free",
+            "90",
+            "94"
+          ],
+          [
+            "Attraction-Recommend",
+            "Addr",
+            "Regent Street",
+            "44",
+            "57"
+          ],
+          [
+            "Attraction-Recommend",
+            "Name",
+            "Downing College",
+            "25",
+            "40"
+          ],
+          [
+            "Attraction-Inform",
+            "Type",
+            "colleges",
+            "15",
+            "23"
+          ],
+          [
+            "Attraction-Inform",
+            "Choice",
+            "many",
+            "10",
+            "14"
+          ]
+        ]
+      },
+      {
+        "text": "soundss good. what is the address and postcode?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Request": [
+            [
+              "Post",
+              "?"
+            ],
+            [
+              "Addr",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Downing College is on Regent Street, postcode cb21dq. Can I help you with anything else?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Name",
+              "Downing College"
+            ],
+            [
+              "Post",
+              "cb21dq"
+            ],
+            [
+              "Addr",
+              "Regent Street"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Name",
+            "Downing College",
+            "0",
+            "15"
+          ],
+          [
+            "Attraction-Inform",
+            "Post",
+            "cb21dq",
+            "46",
+            "52"
+          ],
+          [
+            "Attraction-Inform",
+            "Addr",
+            "Regent Street",
+            "22",
+            "35"
+          ]
+        ]
+      },
+      {
+        "text": "Thank you. What is the entrance fee for Downing College?",
+        "metadata": {},
+        "dialog_act": {
+          "Attraction-Request": [
+            [
+              "Fee",
+              "?"
+            ]
+          ],
+          "Attraction-Inform": [
+            [
+              "Name",
+              "Downing College"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Name",
+            "Downing College",
+            "40",
+            "55"
+          ]
+        ]
+      },
+      {
+        "text": "No, there is no entrance fee, it's free to enter.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Attraction-Inform": [
+            [
+              "Fee",
+              "free"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Attraction-Inform",
+            "Fee",
+            "free",
+            "35",
+            "39"
+          ]
+        ]
+      },
+      {
+        "text": "Great! Can you also help me with a place to stay, the one I'm looking for is called allenbell.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "allenbell"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "allenbell",
+            "84",
+            "93"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, the allenbell is a 4 star guesthouse in the cheap price range on the east side of town.  Would you like me to book this for you?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "the allenbell"
+            ],
+            [
+              "Area",
+              "east"
+            ],
+            [
+              "Type",
+              "guesthouse"
+            ],
+            [
+              "Stars",
+              "4"
+            ],
+            [
+              "Price",
+              "cheap"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "the allenbell",
+            "5",
+            "18"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "east",
+            "74",
+            "83"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "guesthouse",
+            "31",
+            "41"
+          ],
+          [
+            "Hotel-Inform",
+            "Stars",
+            "4",
+            "24",
+            "25"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "cheap",
+            "49",
+            "54"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, for four people staying three nights starting Friday.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stay",
+              "3"
+            ],
+            [
+              "Day",
+              "friday"
+            ],
+            [
+              "People",
+              "4"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stay",
+            "3",
+            "29",
+            "34"
+          ],
+          [
+            "Hotel-Inform",
+            "Day",
+            "friday",
+            "51",
+            "57"
+          ],
+          [
+            "Hotel-Inform",
+            "People",
+            "4",
+            "9",
+            "13"
+          ]
+        ]
+      },
+      {
+        "text": "I've booked your party of four for three nights at Allenbell, starting Friday.  Your reference number is J597S7EH.  Would you like the address and phone number for Allenbell?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "allenbell",
+                  "reference": "J597S7EH"
+                }
+              ],
+              "people": "4",
+              "day": "friday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Booking-Book": [
+            [
+              "Day",
+              "Friday"
+            ],
+            [
+              "Ref",
+              "J597S7EH"
+            ],
+            [
+              "Stay",
+              "three"
+            ],
+            [
+              "People",
+              "four"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Booking-Book",
+            "Day",
+            "Friday",
+            "71",
+            "77"
+          ],
+          [
+            "Booking-Book",
+            "Ref",
+            "J597S7EH",
+            "105",
+            "113"
+          ],
+          [
+            "Booking-Book",
+            "Stay",
+            "three",
+            "35",
+            "40"
+          ],
+          [
+            "Booking-Book",
+            "People",
+            "four",
+            "26",
+            "30"
+          ]
+        ]
+      },
+      {
+        "text": "No thank you. I believe that is everything today.",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Thank you for using our service. Enjoy your time here.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "allenbell",
+                  "reference": "J597S7EH"
+                }
+              ],
+              "people": "4",
+              "day": "friday",
+              "stay": "3"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "PMUL4643.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "I'm looking for a restaurant in the north part and in cheap price range.",
+        "metadata": {},
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "Price",
+              "cheap"
+            ],
+            [
+              "Area",
+              "north"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Price",
+            "cheap",
+            "54",
+            "59"
+          ],
+          [
+            "Restaurant-Inform",
+            "Area",
+            "north",
+            "36",
+            "41"
+          ]
+        ]
+      },
+      {
+        "text": "sure, i have a couple options for you",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "Choice",
+              "a couple"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Choice",
+            "a couple",
+            "13",
+            "21"
+          ]
+        ]
+      },
+      {
+        "text": "Great, thank you! What are they?",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Restaurant-Request": [
+            [
+              "Choice",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "There is royal spice which is a indian restaurant. There is also Da vinci pizzeria which is a italian restaurant. Do you need any more information?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Restaurant-Inform": [
+            [
+              "Name",
+              "royal spice"
+            ],
+            [
+              "Name",
+              "Da vinci pizzeria"
+            ],
+            [
+              "Food",
+              "indian"
+            ],
+            [
+              "Food",
+              "italian"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Name",
+            "royal spice",
+            "9",
+            "20"
+          ],
+          [
+            "Restaurant-Inform",
+            "Name",
+            "Da vinci pizzeria",
+            "65",
+            "82"
+          ],
+          [
+            "Restaurant-Inform",
+            "Food",
+            "indian",
+            "32",
+            "38"
+          ],
+          [
+            "Restaurant-Inform",
+            "Food",
+            "italian",
+            "94",
+            "101"
+          ]
+        ]
+      },
+      {
+        "text": "Please book a table for 5 at 14:30 on Wednesday at Royal Spice. I will need the reference number. I also need to find a place to stay.",
+        "metadata": {},
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "Name",
+              "royal spice"
+            ],
+            [
+              "Time",
+              "14:30"
+            ],
+            [
+              "Day",
+              "wednesday"
+            ],
+            [
+              "People",
+              "5"
+            ]
+          ],
+          "Restaurant-Request": [
+            [
+              "Ref",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Restaurant-Inform",
+            "Name",
+            "royal spice",
+            "51",
+            "62"
+          ],
+          [
+            "Restaurant-Inform",
+            "Time",
+            "14:30",
+            "29",
+            "34"
+          ],
+          [
+            "Restaurant-Inform",
+            "Day",
+            "wednesday",
+            "38",
+            "47"
+          ],
+          [
+            "Restaurant-Inform",
+            "People",
+            "5",
+            "24",
+            "25"
+          ]
+        ]
+      },
+      {
+        "text": "I was able to book your table successfully. Your reference number is KQMXIL0Z. Now, what type of accommodations are you looking for today?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": "royal spice",
+                  "reference": "KQMXIL0Z"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "time": "14:30"
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Request": [
+            [
+              "Type",
+              "?"
+            ]
+          ],
+          "Booking-Book": [
+            [
+              "Ref",
+              "KQMXIL0Z"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Booking-Book",
+            "Ref",
+            "KQMXIL0Z",
+            "69",
+            "77"
+          ]
+        ]
+      },
+      {
+        "text": "The hotel should be in the same area as the restaurant and should include free wifi.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Internet",
+              "free"
+            ],
+            [
+              "Area",
+              "north"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "4",
+            "9"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "free",
+            "74",
+            "83"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "north",
+            "27",
+            "36"
+          ]
+        ]
+      },
+      {
+        "text": "Do you have a price range or star rating preference?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": "royal spice",
+                  "reference": "KQMXIL0Z"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "time": "14:30"
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Request": [
+            [
+              "Stars",
+              "?"
+            ],
+            [
+              "Price",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I'd like a hotel, not a guesthouse, and I'd like a 2-star place.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Stars",
+              "2"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "11",
+            "16"
+          ],
+          [
+            "Hotel-Inform",
+            "Stars",
+            "2",
+            "51",
+            "52"
+          ]
+        ]
+      },
+      {
+        "text": "I found two options that meet your criteria:  Ashley Hotel and Lovell Lodge.  Which one would you like?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": "royal spice",
+                  "reference": "KQMXIL0Z"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "time": "14:30"
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Select": [
+            [
+              "Name",
+              "Ashley Hotel"
+            ],
+            [
+              "Name",
+              "Lovell Lodge"
+            ],
+            [
+              "Choice",
+              "2"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Select",
+            "Name",
+            "Ashley Hotel",
+            "46",
+            "58"
+          ],
+          [
+            "Hotel-Select",
+            "Name",
+            "Lovell Lodge",
+            "63",
+            "75"
+          ],
+          [
+            "Hotel-Select",
+            "Choice",
+            "2",
+            "8",
+            "11"
+          ]
+        ]
+      },
+      {
+        "text": "I would like to book the Ashley Hotel for 5 people for 2 nights.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Type",
+              "hotel"
+            ],
+            [
+              "Stay",
+              "2"
+            ],
+            [
+              "People",
+              "5"
+            ],
+            [
+              "Name",
+              "Ashley Hotel"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "32",
+            "37"
+          ],
+          [
+            "Hotel-Inform",
+            "Stay",
+            "2",
+            "55",
+            "56"
+          ],
+          [
+            "Hotel-Inform",
+            "People",
+            "5",
+            "42",
+            "43"
+          ],
+          [
+            "Hotel-Inform",
+            "Name",
+            "Ashley Hotel",
+            "25",
+            "37"
+          ]
+        ]
+      },
+      {
+        "text": "What day would you like to start your stay?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ],
+              "people": "5",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": "royal spice",
+                  "reference": "KQMXIL0Z"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "time": "14:30"
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Booking-Request": [
+            [
+              "Day",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "On Wednesday please.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Day",
+              "wednesday"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Day",
+            "wednesday",
+            "3",
+            "12"
+          ]
+        ]
+      },
+      {
+        "text": "The hotel booking is complete. The reference number is JATTLNEH.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "ashley hotel",
+                  "reference": "JATTLNEH"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": "royal spice",
+                  "reference": "KQMXIL0Z"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "time": "14:30"
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Booking-Book": [
+            [
+              "Ref",
+              "JATTLNEH"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Booking-Book",
+            "Ref",
+            "JATTLNEH",
+            "55",
+            "63"
+          ]
+        ]
+      },
+      {
+        "text": "Great. Thank you. Goodbye",
+        "metadata": {},
+        "dialog_act": {
+          "general-thank": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Thank you and have a wonderful day!",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": "ashley hotel",
+                  "reference": "JATTLNEH"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "stay": "2"
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": "royal spice",
+                  "reference": "KQMXIL0Z"
+                }
+              ],
+              "people": "5",
+              "day": "wednesday",
+              "time": "14:30"
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-greet": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  },
+  "PMUL3890.json": {
+    "goal": {},
+    "log": [
+      {
+        "text": "Can you help me find a train departing from cambridge going  to kings lynn?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Dest",
+              "kings lynn"
+            ],
+            [
+              "Depart",
+              "cambridge"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Dest",
+            "kings lynn",
+            "64",
+            "74"
+          ],
+          [
+            "Train-Inform",
+            "Depart",
+            "cambridge",
+            "44",
+            "53"
+          ]
+        ]
+      },
+      {
+        "text": "of course, what day are you traveling?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Request": [
+            [
+              "Day",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "I want to leave on Thursday and arrive by 14:00.",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Day",
+              "thursday"
+            ],
+            [
+              "Arrive",
+              "14:00"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Day",
+            "thursday",
+            "19",
+            "27"
+          ],
+          [
+            "Train-Inform",
+            "Arrive",
+            "14:00",
+            "42",
+            "47"
+          ]
+        ]
+      },
+      {
+        "text": "We have nine trains arriving by 14:00 that day. What time are you looking to leave by?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Arrive",
+              "14:00"
+            ],
+            [
+              "Choice",
+              "9"
+            ],
+            [
+              "Day",
+              "Thursday"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Leave",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "14:00",
+            "32",
+            "37"
+          ],
+          [
+            "Train-Inform",
+            "Choice",
+            "9",
+            "8",
+            "12"
+          ],
+          [
+            "Train-Inform",
+            "Day",
+            "Thursday",
+            "38",
+            "46"
+          ]
+        ]
+      },
+      {
+        "text": "I don't have a specific time to leave but I do want to arrive before 14:00. How much will this cost?",
+        "metadata": {},
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Arrive",
+              "14:00"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Ticket",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Arrive",
+            "14:00",
+            "69",
+            "74"
+          ]
+        ]
+      },
+      {
+        "text": "The price is 9.80 pounds per ticket. would you like me to book you passage?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Train-Inform": [
+            [
+              "Ticket",
+              "9.80 pounds"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Train-Inform",
+            "Ticket",
+            "9.80 pounds",
+            "13",
+            "24"
+          ]
+        ]
+      },
+      {
+        "text": "No thanks. Not at this time. Can you help me find a room to stay that is moderately priced?",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Price",
+              "moderate"
+            ]
+          ],
+          "Train-Request": [
+            [
+              "Ticket",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Price",
+            "moderate",
+            "73",
+            "81"
+          ]
+        ]
+      },
+      {
+        "text": "There are a lot of moderately priced hotels. Do you have a preference on which area?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Choice",
+              "a lot"
+            ],
+            [
+              "Price",
+              "moderately priced"
+            ],
+            [
+              "Type",
+              "hotel"
+            ]
+          ],
+          "Hotel-Request": [
+            [
+              "Area",
+              "?"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Choice",
+            "a lot",
+            "10",
+            "15"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "moderately priced",
+            "19",
+            "36"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "hotel",
+            "37",
+            "43"
+          ]
+        ]
+      },
+      {
+        "text": "No, I don't care where it is.  I like 3 stars and I absolutely need free wifi.",
+        "metadata": {},
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Stars",
+              "3"
+            ],
+            [
+              "Internet",
+              "free"
+            ],
+            [
+              "Area",
+              "don't care"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Stars",
+            "3",
+            "38",
+            "39"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "free",
+            "68",
+            "77"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "don't care",
+            "6",
+            "16"
+          ]
+        ]
+      },
+      {
+        "text": "Bridge guest house is a moderately priced, 3 star guesthouse with wifi in the south area. Would you like to make a reservation?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "Name",
+              "Bridge guest house"
+            ],
+            [
+              "Area",
+              "south"
+            ],
+            [
+              "Type",
+              "guesthouse"
+            ],
+            [
+              "Stars",
+              "3"
+            ],
+            [
+              "Price",
+              "moderate"
+            ],
+            [
+              "Internet",
+              "yes"
+            ]
+          ],
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": [
+          [
+            "Hotel-Inform",
+            "Name",
+            "Bridge guest house",
+            "0",
+            "18"
+          ],
+          [
+            "Hotel-Inform",
+            "Area",
+            "south",
+            "78",
+            "83"
+          ],
+          [
+            "Hotel-Inform",
+            "Type",
+            "guesthouse",
+            "50",
+            "60"
+          ],
+          [
+            "Hotel-Inform",
+            "Stars",
+            "3",
+            "43",
+            "44"
+          ],
+          [
+            "Hotel-Inform",
+            "Price",
+            "moderate",
+            "24",
+            "41"
+          ],
+          [
+            "Hotel-Inform",
+            "Internet",
+            "yes",
+            "61",
+            "70"
+          ]
+        ]
+      },
+      {
+        "text": "Yes, make the reservation please.",
+        "metadata": {},
+        "dialog_act": {},
+        "span_info": []
+      },
+      {
+        "text": "Alright, I can take care of that for you.  How many nights will you be staying?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "Booking-Request": [
+            [
+              "Stay",
+              "?"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Actually I don't need a reservation at this time.",
+        "metadata": {},
+        "dialog_act": {},
+        "span_info": []
+      },
+      {
+        "text": "Is there something else I can help you with then?",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-reqmore": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      },
+      {
+        "text": "Nope.  That should cover it.",
+        "metadata": {},
+        "dialog_act": {},
+        "span_info": []
+      },
+      {
+        "text": "My pleasure.",
+        "metadata": {
+          "hotel": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          },
+          "train": {
+            "book": {
+              "booked": [
+                {}
+              ]
+            },
+            "semi": {}
+          }
+        },
+        "dialog_act": {
+          "general-welcome": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "span_info": []
+      }
+    ]
+  }
+}

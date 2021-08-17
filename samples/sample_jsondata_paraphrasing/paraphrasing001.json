@@ -1,0 +1,1101 @@
+{
+  "paraphrasing001": {
+    "dialogue_id": "paraphrasing001",
+    "domain_sequence": "Restaurant(Booking)->Calendar",
+    "current_location": "District Huangpu Renmin Square",
+    "task_list": [
+      {
+        "domain": "Restaurant",
+        "constraints": {
+          "food": "northwest",
+          "rating": "over 4.5",
+          "Area": "Qibao",
+          "Parking": "yes"
+        },
+        "LocalReq": {
+          "Name": "what",
+          "Price": "min"
+        },
+        "BookingReq": {
+          "Day": "next Saturday",
+          "People": 4,
+          "Time": "12:30"
+        },
+        "TaskDescription": "You need to find a restaurant near Qibao. You prefer northwest food and expect a rating score over 4.5. You need parking and expect the price range to be as cheap as possible. You want to know the name of restaurant. If not all the above criteria can be satisfied, you can make some concession on rating score. After restaurant finding, you want the system to help booking: a table for 4 people at 12:30 on next Saturday."
+      },
+      {
+        "domain": "Calendar",
+        "constraints": {
+          "CalType": "building",
+          "Location": "Taste of Qin,Baolong branch",
+          "Day": "next Saturday",
+          "Stay": "1",
+          "BeginTime": "18:30",
+          "Content": "Building: Taste of Qin,Baolong branch,Minhang District,Shanghai",
+          "Duration": "2h"
+        },
+        "LocalReq": {},
+        "TaskDescription": "You need to add the booking info to calendar. The calendar type should be \"building\" and the location is \"the restaurant booked\". The date should be \"booked dinner day\" and the begin time should be \"booked dinner time\". The content could be filled with: \"Building: Taste of Qin,Baolong branch,Minhang District,Shanghai\" and the duration should be 2 hours."
+      }
+    ],
+    "para_info": {
+      "total": 22,
+      "finished": 0,
+      "status": "INITIAL"
+    },
+    "turn_list": [
+      {
+        "turn_id": 0,
+        "role": "usr",
+        "src_dialog": {
+          "text": "I need to find a restaurant. I prefer Xibei taste food. Please find me one with a rating score over 4.5 and with a price range as cheap as possible. I need to know the name of the restaurant.",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "none",
+              "food",
+              "rating"
+            ],
+            "Restaurant-ReqInfo": [
+              "Name",
+              "Price"
+            ]
+          },
+          "single_slot": {
+            "food": [
+              "Xibei",
+              38,
+              43,
+              ""
+            ],
+            "rating": [
+              "over 4.5",
+              95,
+              103,
+              "[4.50, ∞)"
+            ],
+            "Name": [
+              "what",
+              0,
+              0,
+              ""
+            ],
+            "Price": [
+              "min",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "none",
+              "food",
+              "rating"
+            ],
+            "Restaurant-ReqInfo": [
+              "Name",
+              "Price"
+            ]
+          },
+          "single_slot": {
+            "Name": [
+              "what",
+              0,
+              0,
+              ""
+            ],
+            "Price": [
+              "min",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 1,
+        "role": "sys",
+        "src_dialog": {
+          "text": "OK. What area do you plan to have dinner?",
+          "intent_info": {
+            "Restaurant-ReqInfo": [
+              "Area"
+            ]
+          },
+          "single_slot": {
+            "Area": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-ReqInfo": [
+              "Area"
+            ]
+          },
+          "single_slot": {
+            "Area": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 2,
+        "role": "usr",
+        "src_dialog": {
+          "text": "Near Qibao. I'll drive my car so I need parking. Pls. recommend a perfect one.",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "Area",
+              "Parking"
+            ],
+            "Restaurant-ReqRec": [
+              "Name"
+            ]
+          },
+          "single_slot": {
+            "Area": [
+              "Qibao",
+              5,
+              10,
+              ""
+            ],
+            "Parking": [
+              "yes",
+              0,
+              0,
+              ""
+            ],
+            "Name": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "Area",
+              "Parking"
+            ],
+            "Restaurant-ReqRec": [
+              "Name"
+            ]
+          },
+          "single_slot": {
+            "Parking": [
+              "yes",
+              0,
+              0,
+              ""
+            ],
+            "Name": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 3,
+        "role": "sys",
+        "src_dialog": {
+          "text": "Sorry, there's no restaurant meeting that criteria. But found some nice restaurants with lower rating score, do you think about it?",
+          "intent_info": {
+            "Restaurant-OffNone": [
+              "suggest",
+              "rating"
+            ]
+          },
+          "single_slot": {
+            "suggest": [
+              "try_lower",
+              0,
+              0,
+              ""
+            ],
+            "rating": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-OffNone": [
+              "suggest",
+              "rating"
+            ]
+          },
+          "single_slot": {
+            "suggest": [
+              "try_lower",
+              0,
+              0,
+              ""
+            ],
+            "rating": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 4,
+        "role": "usr",
+        "src_dialog": {
+          "text": "What about rating score over 3.5?",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "rating"
+            ]
+          },
+          "single_slot": {
+            "rating": [
+              "over 3.50",
+              24,
+              32,
+              "[3.50, ∞)"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "rating"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 5,
+        "role": "sys",
+        "src_dialog": {
+          "text": "OK. I recommend Taste of Qin, Baolong branch, with a rating score of 3.67, and with a per capita consumption of 25RMB. And it has free parking too.",
+          "intent_info": {
+            "Restaurant-OffRec": [
+              "Name",
+              "Price",
+              "rating",
+              "Parking"
+            ]
+          },
+          "single_slot": {
+            "Name": [
+              "Taste of Qin, Baolong branch",
+              16,
+              44,
+              ""
+            ],
+            "Price": [
+              "25RMB",
+              112,
+              117,
+              "25.00"
+            ],
+            "rating": [
+              "3.67",
+              69,
+              73,
+              "3.67"
+            ],
+            "Parking": [
+              "yes",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-OffRec": [
+              "Name",
+              "Price",
+              "rating",
+              "Parking"
+            ]
+          },
+          "single_slot": {
+            "Parking": [
+              "yes",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 6,
+        "role": "usr",
+        "src_dialog": {
+          "text": "Great! Please book a table for me. I need to dine at next Saturday.",
+          "intent_info": {
+            "Restaurant-ReqSvc": [
+              "booking"
+            ],
+            "Restaurant-Inform": [
+              "Day"
+            ]
+          },
+          "single_slot": {
+            "booking": [
+              "none",
+              0,
+              0,
+              ""
+            ],
+            "Day": [
+              "next Saturday",
+              53,
+              79,
+              "2020-07-04"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-ReqSvc": [
+              "booking"
+            ],
+            "Restaurant-Inform": [
+              "Day"
+            ]
+          },
+          "single_slot": {
+            "booking": [
+              "none",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 7,
+        "role": "sys",
+        "src_dialog": {
+          "text": "How many people? Lunch or supper?",
+          "intent_info": {
+            "Restaurant-ReqInfo": [
+              "People",
+              "Time"
+            ]
+          },
+          "single_slot": {
+            "People": [
+              "what",
+              0,
+              0,
+              ""
+            ],
+            "Time": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-ReqInfo": [
+              "People",
+              "Time"
+            ]
+          },
+          "single_slot": {
+            "People": [
+              "what",
+              0,
+              0,
+              ""
+            ],
+            "Time": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 8,
+        "role": "usr",
+        "src_dialog": {
+          "text": "Please book a table for 4 at 12:30.",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "People",
+              "Time"
+            ]
+          },
+          "single_slot": {
+            "People": [
+              4,
+              24,
+              25,
+              4
+            ],
+            "Time": [
+              "12:30",
+              29,
+              34,
+              "12:30"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "People",
+              "Time"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 9,
+        "role": "sys",
+        "src_dialog": {
+          "text": "Sorry, it is fully booked at that time. Will you change to another timestamp?",
+          "intent_info": {
+            "Restaurant-SvcFail": [
+              "suggest"
+            ]
+          },
+          "single_slot": {
+            "suggest": [
+              "try_adjust",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-SvcFail": [
+              "suggest"
+            ]
+          },
+          "single_slot": {
+            "suggest": [
+              "try_adjust",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 10,
+        "role": "usr",
+        "src_dialog": {
+          "text": "Please change to 18:30.",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "Time"
+            ]
+          },
+          "single_slot": {
+            "Time": [
+              "18:30",
+              17,
+              22,
+              "18:30"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-Inform": [
+              "Time"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 11,
+        "role": "sys",
+        "src_dialog": {
+          "text": "Booking is successful! Restaurant: Taste of Qin Baolong branch, date: July 4th, time: 18:30, people: 4.",
+          "intent_info": {
+            "Restaurant-SvcSuc": [
+              "Name",
+              "Day",
+              "People",
+              "Time"
+            ]
+          },
+          "single_slot": {
+            "Name": [
+              "Taste of Qin Baolong branch",
+              35,
+              62,
+              ""
+            ],
+            "Day": [
+              "July 4th",
+              70,
+              78,
+              "2020-07-04"
+            ],
+            "People": [
+              4,
+              101,
+              102,
+              4
+            ],
+            "Time": [
+              "18:30",
+              86,
+              91,
+              "18:30"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Restaurant-SvcSuc": [
+              "Name",
+              "Day",
+              "People",
+              "Time"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 12,
+        "role": "usr",
+        "src_dialog": {
+          "text": "OK. Please help me to add a calendar and the type is \"building\".",
+          "intent_info": {
+            "Calendar-Inform": [
+              "none",
+              "CalType"
+            ]
+          },
+          "single_slot": {
+            "CalType": [
+              "building",
+              54,
+              62,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-Inform": [
+              "none",
+              "CalType"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 13,
+        "role": "sys",
+        "src_dialog": {
+          "text": "Begin on July 4th?",
+          "intent_info": {
+            "Calendar-Inform": [
+              "Day"
+            ]
+          },
+          "single_slot": {
+            "Day": [
+              "July 4th",
+              9,
+              17,
+              "2020-07-04"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-Inform": [
+              "Day"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 14,
+        "role": "usr",
+        "src_dialog": {
+          "text": "Exactly yes. And the location should be the restaurant booked.",
+          "intent_info": {
+            "Calendar-Inform": [
+              "Location"
+            ]
+          },
+          "single_slot": {
+            "Location": [
+              "the restaurant booked",
+              40,
+              61,
+              "Taste of Qin Baolong branch"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-Inform": [
+              "Location"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 15,
+        "role": "sys",
+        "src_dialog": {
+          "text": "OK. What is the content?",
+          "intent_info": {
+            "Calendar-ReqInfo": [
+              "Content"
+            ]
+          },
+          "single_slot": {
+            "Content": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-ReqInfo": [
+              "Content"
+            ]
+          },
+          "single_slot": {
+            "Content": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 16,
+        "role": "usr",
+        "src_dialog": {
+          "text": "It could be filled: \"Building: Taste of Qin Baolong branch\".",
+          "intent_info": {
+            "Calendar-Inform": [
+              "Content"
+            ]
+          },
+          "single_slot": {
+            "Content": [
+              "Building: Taste of Qin Baolong branch",
+              21,
+              58,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-Inform": [
+              "Content"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 17,
+        "role": "sys",
+        "src_dialog": {
+          "text": "Will it begin at 18:30? How long will it take?",
+          "intent_info": {
+            "Calendar-Inform": [
+              "BeginTime"
+            ],
+            "Calendar-ReqInfo": [
+              "Duration"
+            ]
+          },
+          "single_slot": {
+            "BeginTime": [
+              "18:30",
+              17,
+              22,
+              "18:30"
+            ],
+            "Duration": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-Inform": [
+              "BeginTime"
+            ],
+            "Calendar-ReqInfo": [
+              "Duration"
+            ]
+          },
+          "single_slot": {
+            "Duration": [
+              "what",
+              0,
+              0,
+              ""
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 18,
+        "role": "usr",
+        "src_dialog": {
+          "text": "About 15 minutes before dinner. It'll take about 2 hours.",
+          "intent_info": {
+            "Calendar-Inform": [
+              "BeginTime",
+              "Duration"
+            ]
+          },
+          "single_slot": {
+            "BeginTime": [
+              "15 minutes before dinner",
+              6,
+              30,
+              "18:15"
+            ],
+            "Duration": [
+              "2 hours",
+              49,
+              56,
+              "2.00"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-Inform": [
+              "BeginTime",
+              "Duration"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 19,
+        "role": "sys",
+        "src_dialog": {
+          "text": "Calendar has been added. Type: building, date: July 4th, location: Taste of Qin Baolong branch, content: \"building: Taste of Qin Baolong branch\", begin time: 18:30, end time: 20:30.",
+          "intent_info": {
+            "Calendar-SvcSuc": [
+              "CalType",
+              "Day",
+              "Location",
+              "Content",
+              "BeginTime",
+              "EndTime"
+            ]
+          },
+          "single_slot": {
+            "CalType": [
+              "building",
+              31,
+              39,
+              ""
+            ],
+            "Day": [
+              "July 4th",
+              47,
+              53,
+              "2020-07-04"
+            ],
+            "Location": [
+              "Taste of Qin Baolong branch",
+              67,
+              94,
+              ""
+            ],
+            "Content": [
+              "building: Taste of Qin Baolong branch",
+              106,
+              143,
+              ""
+            ],
+            "BeginTime": [
+              "18:30",
+              158,
+              163,
+              "18:30"
+            ],
+            "EndTime": [
+              "20:30",
+              172,
+              177,
+              "20:30"
+            ]
+          },
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "Calendar-SvcSuc": [
+              "CalType",
+              "Day",
+              "Location",
+              "Content",
+              "BeginTime",
+              "EndTime"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 20,
+        "role": "usr",
+        "src_dialog": {
+          "text": "Thank you very much! Bye.",
+          "intent_info": {
+            "general-thank": [
+              "none"
+            ],
+            "general-bye": [
+              "none"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "general-thank": [
+              "none"
+            ],
+            "general-bye": [
+              "none"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      },
+      {
+        "turn_id": 21,
+        "role": "sys",
+        "src_dialog": {
+          "text": "You are welcome! It's my honor to give my service. Wish you happy! Bye.",
+          "intent_info": {
+            "general-bye": [
+              "none"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_dialog": {
+          "text": "",
+          "intent_info": {
+            "general-bye": [
+              "none"
+            ]
+          },
+          "single_slot": {},
+          "batch_slot": {}
+        },
+        "para_info": {
+          "status": "INITIAL",
+          "desc": "initialized"
+        }
+      }
+    ]
+  }
+}

@@ -144,4 +144,4 @@ def handle_batch_description_post():
 
 if __name__ == '__main__':
     # app.run(host='0.0.0.0', port=5013, debug=False, use_reloader=True)
-    app.run(ssl_context='adhoc', host='0.0.0.0', port=5013, debug=False, use_reloader=True)
+    app.run(host='0.0.0.0', port=2100, debug=True, use_reloader=True)
